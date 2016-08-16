@@ -2,11 +2,17 @@
 
 搭建mysql数据库，并使得jsp能与数据库交互
 
+### 搭建mysql
+* 下载[mysql社区版server](http://dev.mysql.com/downloads/mysql/)
+
 ### 下载源代码
 * git clone 最新的代码
 
 ### 修改配置
 * 修改web/user.jsp配置，使得用户名和密码同数据库配置一致
+
+### 运行sql
+* 在mysql中运行sql/user.sql中的sql语句
 
 ### 编译
 * 切换到项目的目录，然后运行ant
